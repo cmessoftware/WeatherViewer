@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Informe del clima";
+}
+
+    <div class="pt-1 align-content-center">
+        <h3>INFORME DE CLIMA</h3>
+    </div>
+
+    <div class="container pt-10">
+    <div class="row pt-5 align-content-sm-center">
+            <div class="col-3">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle"
+                            id="dd-cities"
+                            type="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                        Seleccione la cuidad
+                    </button>
+                    <ul class="drodown-menu" id="cities"/>
+                   @* <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>*@
+                </div>
+                </div>
+            <div class="col-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Incluir histórico
+                    </label>
+                </div>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">Consultar</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+   
